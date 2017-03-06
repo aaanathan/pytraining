@@ -31,5 +31,3 @@ if a>0:
                     print "A"
 else:
     print "Please enter valid number"
-        
-        

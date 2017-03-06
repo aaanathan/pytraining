@@ -1,7 +1,12 @@
 import sys
 import os
 
-uname = raw_input("Enter the location: ")
+if len(sys.argv)>1:
+    uname = sys.argv[1]
+    print uname
+else:
+    print """Procedure the run the script:
 
+          Pass the directory name as an argument to this script.
 
-print uname
+          Please try again"""
